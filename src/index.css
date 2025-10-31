@@ -1,0 +1,30 @@
+:root {
+  color-scheme: light dark;
+  background-color: #0e0e0e;
+}
+
+@font-face {
+  font-family: 'lay grotesk';
+  src: url('../Font/laygrotesk-medium.otf');
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+}
+
+h2{
+  font-size: 20px;
+  font-family: 'lay grotesk';
+  font-weight: 500;
+}  
